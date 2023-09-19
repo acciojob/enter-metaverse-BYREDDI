@@ -6,8 +6,8 @@ function myFunction()
 		reqele.remove();
 		let h1ele=document.createElement("h1");
 		h1ele.innerHTML="Entered Metaverse";
+		h1ele.id="status";
 		let bodyele=document.getElementsByTagName("body")[0];
-		console.log(bodyele);
 		bodyele.insertBefore(h1ele,btnele);
 		
 	}
